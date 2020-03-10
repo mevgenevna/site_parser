@@ -55,7 +55,3 @@ def start(start_url: str, callback: typing.Callable, out_path: str, out_format: 
 def _write_jl(row, out_file):
     json.dump(row, out_file)
     out_file.write('\n')
-
-def _write_csv(row, out_file):
-    json.dump(row, out_file)
-    out_file.write('\n')
